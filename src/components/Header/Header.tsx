@@ -1,7 +1,6 @@
 import { FC, useState } from 'react'
 import { useAppDispatch } from '../../hooks/redux'
 import logout from '../../img/log-out.svg'
-import logo from '../../img/logoW.svg'
 import photo from '../../img/user-profile-photo.jpg'
 import { removeUser } from '../../store/reducers/authSlice'
 import { Burger } from '../Burger/Burger'
@@ -24,7 +23,7 @@ export const Header: FC = () => {
 				/>
 				<div className='header__navigation navigation-header'>
 					<div className='navigation-header-logo logo-header'>
-						<img src={logo} alt='Header logo' width={114} height={41} />
+						<img src=https://placehold.co/114x41 alt='Header logo' width={114} height={41} />
 					</div>
 					<div className='navigation-header__menu menu-header'>
 						<HeaderLinks />
