@@ -3,7 +3,7 @@ import { useAppDispatch, useAppSelector } from '../../../hooks/redux'
 import arrowIcon from '../../../img/arrow-icon.svg'
 import walletIconOrange from '../../../img/wallet-icon-orange.svg'
 import walletIcon from '../../../img/wallet-icon.svg'
-import { fetchAdminPayments } from '../../../store/reducers/ActionCreators'
+import { fetchAdminPaymentsFromLocalStorage } from '../../../store/reducers/ActionCreators'
 import { Breadcrumbs } from '../../Breadcrumbs/Breadcrumbs'
 import { Loader } from '../../UI/Loader/Loader'
 import { TabContent } from '../../UI/TabComponent/Tabs/TabContent'
@@ -31,7 +31,7 @@ export const Finances = () => {
 	})
 
 	useEffect(() => {
-		dispatch(fetchAdminPayments())
+		dispatch(fetchAdminPaymentsFromLocalStorage())
 	}, [dispatch])
 
 	return (
