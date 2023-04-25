@@ -1,0 +1,296 @@
+[
+  {
+    "id": 1,
+    "name": "Андрей Попович",
+    "username": "alfred",
+    "phone": "+79995855665",
+    "email": "mail@gmail.com",
+    "isAdmin": true,
+    "dateRegistered": "25.01.2022",
+    "ordersNumber": 10,
+    "ordersAmount": 20000,
+    "inFreeze": 5000,
+    "address": { "street": "Лоботрясов", "building": 33, "flat": 33 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Елена Еленова",
+    "username": "lenka_elenka",
+    "phone": "+79995855666",
+    "email": "mail1@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "26.01.2022",
+    "ordersNumber": 11,
+    "ordersAmount": 30000,
+    "inFreeze": 6000,
+    "address": { "street": "Пушкина", "building": 34, "flat": 34 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Екатерина Екатеринина",
+    "username": "katuha_cat",
+    "phone": "+79995855667",
+    "email": "mail2@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "24.01.2022",
+    "ordersNumber": 12,
+    "ordersAmount": 40000,
+    "inFreeze": 7000,
+    "address": { "street": "Ленина", "building": 35, "flat": 35 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Илья Ильин",
+    "username": "iluha_iluha",
+    "phone": "+79995855668",
+    "email": "mail3@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "23.01.2022",
+    "ordersNumber": 13,
+    "ordersAmount": 50000,
+    "inFreeze": 8000,
+    "address": { "street": "Сталина", "building": 36, "flat": 36 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "Антон Антонов",
+    "username": "antoha_antonov",
+    "phone": "+79995855669",
+    "email": "mail4@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "22.01.2022",
+    "ordersNumber": 14,
+    "ordersAmount": 60000,
+    "inFreeze": 9000,
+    "address": { "street": "Гагарина", "building": 37, "flat": 37 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "name": "Сергей Сергеев",
+    "username": "sergeev_serega",
+    "phone": "+79995855670",
+    "email": "mail5@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "21.01.2022",
+    "ordersNumber": 15,
+    "ordersAmount": 70000,
+    "inFreeze": 4000,
+    "address": { "street": "Рузвельта", "building": 38, "flat": 38 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название автобуса",
+        "count": 2,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 10500,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название кладбища",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 12345,
+        "confirmed": true
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Иван Иванов",
+    "username": "ivan_ivanov",
+    "phone": "+79995855671",
+    "email": "mail6@gmail.com",
+    "isAdmin": false,
+    "dateRegistered": "20.01.2022",
+    "ordersNumber": 16,
+    "ordersAmount": 80000,
+    "inFreeze": 3000,
+    "address": { "street": "Ломоносова", "building": 39, "flat": 39 },
+    "orders": [
+      {
+        "id": 1677509144707,
+        "name": "Название гроба",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "В работе",
+        "price": 15000,
+        "confirmed": false
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название венка",
+        "count": 3,
+        "date": "21.01.2022",
+        "status": "Выполнен",
+        "price": 5000,
+        "confirmed": true
+      },
+      {
+        "id": 1677509144707,
+        "name": "Название памятника",
+        "count": 1,
+        "date": "21.01.2022",
+        "status": "Отменен",
+        "price": 50000,
+        "confirmed": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,47 @@
+[
+	{
+		"id": 1,
+		"photo": "<img src=\"https://placehold.co/33x33\" alt=\"Заказ клиентов производителя\" />",
+		"vendorCode": "123456",
+		"type": "Базовый",
+		"name": "Заказ-1",
+		"inStock": true,
+		"price": 123
+	},
+	{
+		"id": 2,
+		"photo": "<img src=\"https://placehold.co/33x33\" alt=\"Заказ клиентов производителя\" />",
+		"vendorCode": "123456",
+		"type": "Базовый",
+		"name": "Заказ-2",
+		"inStock": false,
+		"price": 321
+	},
+	{
+		"id": 3,
+		"photo": "<img src=\"https://placehold.co/33x33\" alt=\"Заказ клиентов производителя\" />",
+		"vendorCode": "123456",
+		"type": "Дополнительный",
+		"name": "Заказ-3",
+		"inStock": true,
+		"price": 456
+	},
+	{
+		"id": 4,
+		"photo": "<img src=\"https://placehold.co/33x33\" alt=\"Заказ клиентов производителя\" />",
+		"vendorCode": "123456",
+		"type": "Дополнительный",
+		"name": "Заказ-4",
+		"inStock": false,
+		"price": 654
+	},
+	{
+		"id": 5,
+		"photo": "<img src=\"https://placehold.co/33x33\" alt=\"Заказ клиентов производителя\" />",
+		"vendorCode": "123456",
+		"type": "Дополнительный",
+		"name": "Заказ-5",
+		"inStock": true,
+		"price": 789
+	}
+]

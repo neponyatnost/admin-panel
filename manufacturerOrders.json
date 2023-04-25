@@ -1,0 +1,32 @@
+[
+	{
+		"id": 1,
+		"orderDate": "25.02.2022",
+		"organization": "ООО \"Организация\"",
+		"orderName": "Автобус \"Мерседес\"",
+		"orderCount": 1,
+		"orderStatus": "В работе",
+		"orderAmount": 100000,
+		"orderConfirmed": false
+	},
+	{
+		"id": 2,
+		"orderDate": "25.02.2023",
+		"organization": "ООО \"Организация-1\"",
+		"orderName": "Автобус \"Мерседес-1\"",
+		"orderCount": 2,
+		"orderStatus": "Выполнен",
+		"orderAmount": 23232323,
+		"orderConfirmed": true
+	},
+	{
+		"id": 3,
+		"orderDate": "25.02.2024",
+		"organization": "ООО \"Организация-2\"",
+		"orderName": "Автобус \"Мерседес-2\"",
+		"orderCount": 3,
+		"orderStatus": "Отменен",
+		"orderAmount": 435645543,
+		"orderConfirmed": false
+	}
+]
