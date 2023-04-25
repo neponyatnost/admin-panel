@@ -1,0 +1,7 @@
+@import '../../../scss/variables.scss';
+
+.table-body {
+  @media (max-width: 768.99px) {
+    display: none;
+  }
+}

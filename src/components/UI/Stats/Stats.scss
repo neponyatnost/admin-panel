@@ -1,0 +1,36 @@
+@import '../../../scss/variables.scss';
+
+.total {
+  display: flex;
+  flex: 1 0 25%;
+  margin-bottom: 25px;
+
+  @media (max-width: 992.99px) {
+    flex: 1 1 auto;
+    margin-bottom: 15px;
+    margin-right: 10px;
+  }
+
+  // .total__container
+
+  &__container {
+    display: inline-flex;
+    height: fit-content;
+    align-items: baseline;
+    gap: 10px;
+
+    img {
+      @media (max-width: 480.99px) {
+        display: none;
+      }
+    }
+  }
+
+  // .total__count
+
+  &__count {
+    color: $mainColor;
+    line-height: 100%;
+    margin-bottom: 5px;
+  }
+}

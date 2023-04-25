@@ -1,0 +1,37 @@
+@import '../../scss/variables.scss';
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  min-width: 290px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  margin-right: 20px;
+
+  @media (max-width: 992px) {
+    display: none;
+  }
+
+  &__link {
+    padding: 13px 30px;
+    color: $grayColor;
+    border-radius: 5px;
+    transition: all 0.3s;
+
+    &.active {
+      background-color: $headingColor;
+      color: $whiteColor;
+
+      &:hover {
+        color: $whiteColor;
+        background-color: $headingColor;
+      }
+    }
+
+    &:hover {
+      color: $mainColor;
+      background-color: $whiteColor;
+    }
+  }
+}

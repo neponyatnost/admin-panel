@@ -1,0 +1,75 @@
+@import '../../../scss/variables.scss';
+
+.t-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 25px;
+
+	.title-h3 {
+		margin: 0;
+	}
+}
+
+.table {
+	border-collapse: collapse;
+	margin-bottom: 25px;
+	width: 100%;
+}
+
+.table-header {
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 14px;
+	color: $mainColor;
+
+	@media (max-width: 768.99px) {
+		display: none;
+	}
+}
+
+.table-row {
+	text-align: left;
+}
+
+.table-row-heading {
+	padding: 10px;
+	border-bottom: 1px solid $grayColor;
+	cursor: pointer;
+	user-select: none;
+
+	&:last-child {
+		min-width: 115px;
+	}
+}
+
+.table-row-data {
+	padding: 0.5rem;
+
+	img {
+		border-radius: 50%;
+	}
+}
+
+.table-body {
+	text-align: left;
+	font-family: 'Inter';
+	font-size: 13px;
+	line-height: 16px;
+	color: $grayColor;
+}
+
+.table-username {
+	text-decoration: underline;
+
+	a {
+		color: $grayColor;
+	}
+}
+
+.table-link {
+	text-decoration: underline;
+	color: $brownColor;
+}

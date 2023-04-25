@@ -1,0 +1,45 @@
+@import '../../../../scss/variables.scss';
+
+.tabs {
+  width: 100%;
+  height: auto;
+  min-height: 400px;
+  background: $whiteColor;
+  box-sizing: border-box;
+
+  @media (max-width: 769px) {
+    padding: 2rem 0;
+  }
+}
+
+ul.tab-nav {
+  width: 100%;
+  margin: 0 auto 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 0px;
+
+  @media (max-width: 768px) {
+    width: 90%;
+  }
+}
+
+ul.tab-nav li {
+  width: 100%;
+  padding: .5rem;
+  list-style: none;
+  text-align: center;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+
+
+ul.tab-nav li:hover {
+  color: $brownColor;
+}
+
+ul.tab-nav li.active-tab {
+  box-shadow: 0px 1px 0px 0px rgba(167, 92, 92, 1);
+}

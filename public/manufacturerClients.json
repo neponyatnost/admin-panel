@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "orderDate": "25.01.2022",
+    "endDate": "28.01.2022",
+    "clientName": "Иванов Петр",
+    "totalAmount": 20000,
+    "paidAmount": 10000,
+    "remainder": true
+  },
+  {
+    "id": 2,
+    "orderDate": "25.01.2023",
+    "endDate": "28.01.2023",
+    "clientName": "Иванов Антон",
+    "totalAmount": 23423544,
+    "paidAmount": 435565,
+    "remainder": false
+  },
+  {
+    "id": 3,
+    "orderDate": "25.01.2024",
+    "endDate": "28.01.2024",
+    "clientName": "Иванов Иван",
+    "totalAmount": 54654,
+    "paidAmount": 32323,
+    "remainder": false
+  }
+]

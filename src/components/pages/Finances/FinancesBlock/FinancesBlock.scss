@@ -1,0 +1,36 @@
+@import '../../../../scss/variables.scss';
+
+.finances-block {
+  display: flex;
+  flex: 0 0 30%;
+
+  @media (max-width: 992.99px) {
+    flex: 1 1 100%;
+    margin-bottom: 15px;
+  }
+
+  // .finances-block__container
+
+  &__container {
+    display: inline-flex;
+    height: fit-content;
+    align-items: baseline;
+    gap: 10px;
+  }
+
+  // .finances-block__count
+
+  &__count {
+    color: $mainColor;
+    line-height: 100%;
+    margin-bottom: 0;
+  }
+}
+
+.brown-color {
+  color: $brownColor;
+}
+
+.gold-color {
+  color: #DCB529;
+}

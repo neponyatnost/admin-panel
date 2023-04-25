@@ -1,0 +1,13 @@
+@import '../../../scss/variables.scss';
+
+.info {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 25px;
+  margin-bottom: 25px;
+
+  .title-h3 {
+    flex: 1 1 100%;
+  }
+}

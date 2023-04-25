@@ -1,0 +1,25 @@
+@import '../../../scss/variables.scss';
+
+.form-input {
+  margin: 0;
+  padding: 0;
+}
+
+.input-search {
+  border: 1px solid #E3E5E6;
+  border-radius: 3px;
+  width: 309px;
+  padding: 7px 12px;
+  font-family: 'Inter';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: $grayColor;
+  transition: all 0.3s ease-out;
+
+  &:focus {
+    border-color: $brownColor;
+    outline: none;
+  }
+
+}

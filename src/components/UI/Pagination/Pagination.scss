@@ -1,0 +1,47 @@
+@import '../../../scss/variables.scss';
+
+.pagination {
+  font-family: 'Roboto';
+  font-weight: 500;
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+
+  @media (max-width: 768.99px) {
+    display: none;
+  }
+}
+
+.page-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page-link {
+  padding: 10px;
+  background-color: $brownColor;
+  border-radius: 10px;
+  color: $whiteColor;
+  transition: all 0.1s ease-out;
+
+  &:hover {
+    background-color: $whiteColor;
+    color: $mainColor;
+    outline: 1px solid $brownColor;
+  }
+
+  &:active {
+    background-color: $brownColor;
+    color: $whiteColor;
+    outline: 1px solid $whiteColor;
+  }
+
+  &.active.active {
+    border-radius: 0;
+    background-color: $whiteColor;
+    outline: 1px solid $brownColor;
+    color: $mainColor;
+  }
+}

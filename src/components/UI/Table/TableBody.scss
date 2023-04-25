@@ -1,0 +1,43 @@
+@import '../../../scss/variables.scss';
+
+.table-body {
+  @media (max-width: 768.99px) {
+    display: none;
+  }
+}
+
+.confirmed {
+  font-size: 12px;
+  line-height: 140.8%;
+  background-color: $brownColor;
+  border-radius: 5px;
+  color: $whiteColor;
+  padding: 5px;
+}
+
+.not-confirmed {
+  font-size: 12px;
+  line-height: 140.8%;
+  border: 1px solid $brownColor;
+  border-radius: 5px;
+  color: $brownColor;
+  padding: 5px;
+}
+
+.green {
+  font-size: 14px;
+  line-height: 16px;
+  color: #01CE2E;
+}
+
+.gold {
+  font-size: 14px;
+  line-height: 16px;
+  color: #CABF5E;
+}
+
+.red {
+  font-size: 14px;
+  line-height: 16px;
+  color: #FF002E;
+}

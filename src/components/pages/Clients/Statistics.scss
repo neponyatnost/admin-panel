@@ -1,0 +1,41 @@
+@import '../../../scss/variables.scss';
+
+.statistics {
+  width: 100%;
+  margin: 0 auto;
+
+  @media (max-width: 1200.99px) {
+    max-width: 95%;
+  }
+
+  @media (max-width: 992.99px) {
+    max-width: 95vw;
+  }
+
+  @media (max-width: 768.99px) {
+    max-width: 100%;
+  }
+
+  @media (max-width: 480.99px) {
+    max-width: 100%;
+  }
+
+  &__wrapper {
+    margin: 0 auto;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: $whiteColor;
+    padding: 40px;
+    margin-bottom: 15px;
+
+    @media (max-width: 768.99px) {
+      padding: 20px;
+    }
+
+    @media (max-width: 480.99px) {
+      padding: 5px;
+      margin-left: 0;
+    }
+  }
+}

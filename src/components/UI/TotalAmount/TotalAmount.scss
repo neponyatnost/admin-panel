@@ -1,0 +1,17 @@
+@import '../../../scss/variables.scss';
+
+.total-amount {
+  background-color: $grayColor;
+  padding: 8px 10px;
+  margin-bottom: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+
+  p,
+  h3 {
+    color: $whiteColor;
+    line-height: 0;
+  }
+}

@@ -1,0 +1,36 @@
+@import '../../scss/variables.scss';
+
+.container {
+  width: 98vw;
+  margin: 0 auto;
+
+  @media (max-width: 992.99px) {
+    width: 100%;
+    padding: 0;
+  }
+}
+
+.block {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 290px 1fr;
+  gap: 20px;
+
+  @media (max-width: 992px) {
+    max-width: 950px;
+    grid-template-columns: 1fr;
+    padding: 0;
+    gap: 0;
+    display: block;
+  }
+
+  @media (max-width: 768.99px) {
+    width: 100%;
+  }
+
+  @media (max-width: 480.99px) {
+    width: 100vw;
+  }
+}
